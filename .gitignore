@@ -1,0 +1,21 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+
+# 配置文件（含 API Key）
+config.yaml
+.env
+
+# 过程性文件与测试输出
+tests/
+*.log
+output/
+sessions/
+temp/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
